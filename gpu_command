@@ -1,0 +1,22 @@
+# show GPU
+nvidia-smi
+lspci | grep -i nvidia
+# help information
+nvidia-smi -h
+# how to use a specific GPU
+https://www.cnblogs.com/wj-1314/articles/9947477.html
+https://blog.csdn.net/wcy23580/article/details/90177136
+# watch status periodically (every 10 seconds)
+ watch -n 3 nvidia-smi
+
+ !wget -P /home/zhoumu/nlp/ -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+
+# python virtual environment
+https://cs231n.github.io/setup-instructions/
+source /newDisk/users/zhoumu/my_env/bin/activate
+# create a virtual environment
+python3 -m venv my_env
+deactivate
+
+# nvidia-smi cheetsheet
+https://codeyarns.com/tech/2019-04-26-nvidia-smi-cheatsheet.html
