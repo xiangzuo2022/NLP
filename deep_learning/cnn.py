@@ -122,14 +122,9 @@ def evaluate(model):
 
 
 def main():
-
     training_data = load_data()
-
     model = CNN()
-
     train(model, training_data)
-
     evaluate(model)
-
 
 main()
